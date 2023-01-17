@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação de texto</title>
+    <style>
+        body{
+            background-color: rgb(204, 204, 204);
+        }
+        mark{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <h1>principais formatações</h1>
+    <h2>negrito / destaque</h2>
+    <p>nesta frase temos um <b>termo em negrito</b> usando a tag b, porem nao e da forma semantica (NAO SEMANTICA)</p>
+    <p>ja nesta frase tambem temos um <strong>termo em negrito</strong> usando a tag strong, e agora da forma semantica (SEMANTICA) </p>
+    <h2>italico / enfase</h2>
+    <p>
+        nesta frase temos <I>um termo</I> em italico, utilizando a tag i, forma (NAO SEMANTICA)
+    </p>
+    <p>
+        nesta frase temos <em>um termo</em> em italico, utilizando a tag em, forma (SEMANTICA)
+    </p>
+    <h2>texto marcado </h2>
+    <p>
+        nesta frase temos <mark>um termo</mark> marcado, utilizando a tag mark
+    </p>
+    <h2>texto deletado</h2>
+    <p>
+        nesta frase temos <del>um termo</del> deletado, utilizando a tag del 
+    </p>
+    <h2>texto inserido / sublinhado</h2>
+    <p>
+        nesta frase temos <ins>um termo</ins> inserido utilizando a tag ins
+    </p>
+    <h2>texto sobrescrito</h2>
+    <p>
+        usamos a tag sob, por exemplo x<sup>2</sup>+3
+    </p>
+    <h2>texto subescreito</h2>
+    <p>
+        usamos a tag sub, por exemplo H<sub>2</sub>O
+    </p>
+    <h2>codigo fonte</h2>
+    <p>o comando <code>document.getElementsByid('teste')</code> é um comando usando no javascript. deixamos com essa fonte utilizando a tag code</p>
+    <p>podemos deixar o texto tambem da mesma forma escrita no codigo html, utlizando a tag &lt;pre&gt;</p>
+    <pre>
+        <p>
+    num = int(input("digite um numero"))
+    if num % 2 == 0:
+    print(f 'o numero {num} é PAR')
+    else:
+    print(f 'o numero {num} é IMPAR')
+    print(fim do programa )
+        </p>
+    </pre>
+    <h2>citações</h2>
+    <p>
+        como diria o pai de um amigo meu: <q>o computador é um burro muito rapido.</q>, para usarmos aspas utilizamos a tag q 
+    </p>
+    <p>
+        para fazer um citação de um livro voce tambem pode usar a tag blockquote por exemplo:
+        <blockquote cite=""> <!--dentro do cite voce pode colocar a url do livro ou da onde tirou o texto, nao aparecera no site o link ou o nome do livro, apenas ira facilitar no mecanismo de buscar do navegador a associar o livro com o site-->
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas temporibus animi aut quisquam ea ducimus rerum ipsam totam consectetur est saepe ipsa porro, nam possimus ut! Quae quisquam reiciendis odit.
+        </blockquote>
+    </p>
+    <h2>abreviações</h2>
+    <p>
+        podemos mostrar o significado de uma abreviação, com a tag abbr, por exemplo: estou aprendendo <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando.
+    </p>
+
+</body>
+</html> 

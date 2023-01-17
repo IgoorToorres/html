@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midis em html 5 </title>
+    <style>
+        body{
+            background-color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>tente abrir este site em varios dispositivos ou apenas aumente e diminua o tamanho do seu navegador</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+    <h2>colocando audio no site</h2>
+    <audio src="midia/happy-mistake.mp3" controls ></audio>
+    <p>caso queira baixar o <a href="midia/happy-mistake.mp3" target="_blank">audio</a> , aqui estao link</p>
+    <audio src="midia/guanacast-33.mp3" controls preload="metadata"></audio>
+    <p>neste audio (um podcast) como arquivo e mais pesado utilizamos o preload="<strong>metadata</strong>" para carregar tudo SOBRE o audio primeiro e nao apenas mostrar o audio completo quando carregar tudo, ja que o arquivo é pesado</p>
+</body>
+</html>

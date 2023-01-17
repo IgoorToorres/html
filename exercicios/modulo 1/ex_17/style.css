@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: gray;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+    color: aliceblue;
+}
+
+a:hover{
+    color: aqua;
+}
+
+button:hover{
+    background-color: aqua;
+    cursor:context-menu;
+}

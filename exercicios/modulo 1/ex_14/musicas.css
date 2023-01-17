@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+*{
+    font-family: 'Permanent Marker';
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    margin-left: 800px;
+}
+
+#seta
+{
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#seta:hover
+{
+    background-color: greenyellow;
+    border-radius: 200px;
+    width: 60px;
+    height: 60px;
+}
+
+#musica 
+{
+    margin-left: 300px;
+    width: 1280px;
+    height: 720px;
+}
+
+#canal
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+#canal::before
+{
+    content: '⇝ ';
+}
+
+#canal::after
+{
+    content: ' ⇜';
+}
+
+#canal:hover
+{
+    text-align: underline;
+    color: white;
+}
+
+#canal:active
+{
+    color: yellow;
+}
