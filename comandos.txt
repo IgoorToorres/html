@@ -1,0 +1,145 @@
+alguns comandos HTML:
+
+< p > - paragrafo ou texto normal
+
+< h1 > - titulo principal do site
+
+<h2> <h3>... - subtitulos 
+
+< br > - quebra de linha 
+
+<!-- --> - comentario html 
+
+< strong > - texto ou palavra em negrito
+
+< em > - texto em italico
+
+< mark > - texto marcado 
+
+< del > - texto com risco no meio
+
+< ins > - texto sublinhado 
+
+< sup > - texto sobrescrito, ex 2 ao quadrado (com o 2 em cima)
+
+< sub > - texto subscrito, ex h2o (com o 2 em baixo )
+
+< code > - codigo fonte, para colocar com fonte de codigo.
+
+< pre > - para o texto aparecer no site do mesmo jeito q foi escrito no codigo
+
+< q > - aspas 
+
+< abbr > - para colocar significado da palavra quando passar o mouse em cima 
+
+< ol > - lista ordenado
+
+< ul > - lista NAO ordenada
+type="disk" - "circle" - "square" ---- para mudar o estilo da marcação da lista
+
+< li > - itens da lista 
+
+< a > - links ---- target="_blank" - para abrir o link em outa guia, e é bom colocar 
+rel="external" - para sites externos 
+rel="next" - para proxima pagina no mesmo site 
+rel="prev" - para pagina anterior no mesmo site 
+
+
+
+link:favicon: - coloca em head, para colocar icone no site.
+link:css - para ligar o html ao documento css
+
+
+
+		COMANDOS CSS :
+
+@charset "UTF-8" - antes de todos os comandos para reconhecer caracteres especiais do portugues
+
+*{ - para configurações gerais de css
+
+border: 3px solid black - tamanho da bordar > estilo da borda > cor da borda 
+
+border-radius: - para arredondar cantos da borda
+
+text-shaddow: sombra de texto 
+
+box-shaddow: sombra de caixa 
+
+background-image:lineargradient() - para colocar degrade de background
+ordem - direção > cor > cor
+ex: to right, yellow, red
+
+text-align: justify - para alinhar texto nas bordas 
+
+font-family: - para mudar a fonte
+
+font-weight: - para mecher na largura da fonte 
+
+font-size: - tamanho da fonte 
+
+font-style: - estilo da fonte 
+
+text-ident: - para colocar paragrafo no começo do texto 
+
+height: - altura 
+
+widht: - largura 
+
+max-widht: - largura maxima
+
+max-height: - altura maxima 
+
+padding: - espaço de dentro, entre borda e texto
+
+margin: - espaço de fora da borda 
+
+ouline: - linha de fora, depois da borda 
+
+margin: auto; - para centralizar uma caixa na horizontal
+
+display: block; - cria uma caixa (pula a linha)
+
+display: inline; - continua na linha 
+
+display: inline-block; - continua na linha mas criando caixas
+
+background-image: url(); - para colocar imagem de background
+
+background-repeat: - para repetir ou nao repetir a foto de fundo 
+no-repeat   repeat    repeat-x    repeat-y
+
+background-size: cover; - para esticar a imagem para a tela toda, ajustando com o tamanho da tela
+
+backgrond-attachment: fixed; - para deixar imagem fixa, podendo rolar a pagina para baixo e a imagem fica parada 
+
+
+
+
+
+:root{ - para criar variaveis 
+}
+
+
+
+
+. = class
+# = id 
+: = pseudo classe 
+:: = pseudo elemento 
+> filho da classe 
+
+algumas pseudoclasses 
+:hover - quando passar com o mouse em cima 
+:active - quando clicar com o mouse em cima 
+:visited - quando é um link ja visitado 	
+:after - depois
+
+(medidas no css) 
+MEDIDAS ABSOLUTAS:
+cm, mm, im, px, pt, pc;
+
+MEDIDAS NAO ABSOLUTAS:
+em, ex, rem, vw, vh, %
+
+
+
