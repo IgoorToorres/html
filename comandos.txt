@@ -112,7 +112,10 @@ background-size: cover; - para esticar a imagem para a tela toda, ajustando com 
 
 backgrond-attachment: fixed; - para deixar imagem fixa, podendo rolar a pagina para baixo e a imagem fica parada 
 
-
+PARA CENTRALIZAR OBJETO COM POSITION ABSOLUTE-
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
 
 
 
