@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela_grande</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: rgba(199, 199, 199, 0.76);
+        }
+
+        caption{
+            padding-bottom: 5px;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.219);
+            font-size: 2em;
+            text-decoration: underline;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+
+        th{
+            border: 2px solid black;
+            height: 40px;
+        }
+        
+        td{
+            border: 2px solid black;
+            height: 40px;
+            text-align: center;
+            padding: 5px;
+        }
+
+        td.numero{
+            text-align: right;
+        }
+
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>tabela com header</h1>
+
+
+    <table>
+        <caption><strong>População de cada cidade</strong></caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="numero">200 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">214 042</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">140 435</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">423 012</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</td>
+                <td class="numero"><strong>12309 12309</strong></td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
