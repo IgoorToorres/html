@@ -44,6 +44,28 @@ rel="external" - para sites externos
 rel="next" - para proxima pagina no mesmo site 
 rel="prev" - para pagina anterior no mesmo site 
 
+TABELA:
+	hierarquia de tabela: 
+		tabble = tabela
+		table row = linha da tabela
+		table header = cabeçalho da tabela 
+		table data = dado da tabela 
+	ex:
+		<table>
+			<tr>
+				<td>a1</td>
+				<td>b1</td>
+				<td>c1</td>
+			</tr>
+			<tr>
+				<td>a2</td>
+				<td>b2</td>
+				<td>c2</td>
+			</tr>
+		</table>
+<caption> - titulo da tabela 
+		
+
 
 
 link:favicon: - coloca em head, para colocar icone no site.
@@ -143,6 +165,12 @@ cm, mm, im, px, pt, pc;
 
 MEDIDAS NAO ABSOLUTAS:
 em, ex, rem, vw, vh, %
+
+configurações tabela css: 
+	border-collapse: collapse; - para deixar as bordas coladas
+	border: - para colocar borda
+	text-align: left/ center/ right - alinhamento do text na horizontal
+	vertical-align: top/ middle/ bottom - alinhamento do texto na vertical 
 
 
 
