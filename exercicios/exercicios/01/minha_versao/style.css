@@ -7,14 +7,15 @@
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700*/
 
-@font-face{
-    font-family: 'Montserrat';
-    src: url()('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;700&family=Permanent+Marker&family=Sriracha&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat:wght@100&display=swap');
 
 :root{
     --cor1: hsl(158, 36%, 37%);
     --cor2: hsl(30, 38%, 92%);
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Fraunces', serif;
 }
 
 body{
@@ -63,21 +64,38 @@ body{
 .conteudo h1{
     width: 12vw;
     font-size: 2.5em;
+    padding-left: 50px;
+    font-family: var(--font2);
+    margin-bottom: 15px;
 }
 
 .conteudo h2{
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding-top: 2vh;
+    padding-left: 50px;
+    font-family: var(--font1);
+    letter-spacing: 5px;
 }
 
 .texto{
-    width: 17vw;
+    width: 15vw;
     font-family: var(--font1);
+    padding-left: 50px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
 
 .preco{
     display: inline-block;
-    width: 5vw;
+    width: 2vw;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    font-family: var(--font2);
+    margin-top: 0px;
 }
 
 #preco_novo{
@@ -85,16 +103,48 @@ body{
     padding-right: 5vw;
 }
 
+#preco_velho{
+    text-decoration: line-through;
+}
+
 button{
     display: block;
-    width: 250px;
+    width: 300px;
     margin: auto;
     border-radius: 5px;
-    height: 50px;
+    height: 60px;
     border: none;
     background-color: var(--cor1);
+    font-family: var(--font1);
+    color:white;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 button:hover{
     cursor: pointer;
+    background-color: hsl(158, 36%, 24%);
 }
+
+footer{
+    position: absolute;
+    top: 97vh;
+    width: 100vw;
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(78, 78, 78);
+}
+
+
