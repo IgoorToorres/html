@@ -71,6 +71,9 @@ TABELA:
 link:favicon: - coloca em head, para colocar icone no site.
 link:css - para ligar o html ao documento css
 
+iframe : para abrir sites dentro da aba, tanto de sites externos quanto de sites locais do repositorio
+	<iframe name="sites"> </iframe> -- colocando name, voce consegue abrir links dentro do iframe utilizando (target="sites") colocando o name no target ! 
+
 
 
 		COMANDOS CSS :
